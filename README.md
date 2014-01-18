@@ -17,26 +17,26 @@ And install it:
 
 After these two simple steps, has_gravatar is ready to be used on any Active Record model.
 In order to use it, call `has_gravatar`, passing one or more fields as argument. Example:
-```
-	class User < ActiveRecord::Base
-		has_gravatar :primary_email, :secondary_email, :email
-	end
+```ruby
+class User < ActiveRecord::Base
+	has_gravatar :primary_email, :secondary_email, :email
+end
 ```
 
 Now, to get the Gravatar URL of a model, use:
-```
-	user = User.first
+```ruby
+user = User.first
 
-	# Returns http://gravatar.com/avatar/<hash>
-	user.email_gravatar
+# Returns http://gravatar.com/avatar/<hash>
+user.email_gravatar
 	
-	# Supports default images
-	user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png'
+# Supports default images
+user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png'
 	
-	# And sizing
-	user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png', size: 128
+# And sizing
+user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png', size: 128
 	
-	# And HTTPS
-	user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png', size: 128, secure: true
+# And HTTPS
+user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png', size: 128, secure: true
 
 ```
