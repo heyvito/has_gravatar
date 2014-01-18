@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     has_gravatar (0.0.1)
-      activerecord
+      activerecord (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -49,6 +49,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.5)
   has_gravatar!
-  rake
-  rspec
-  sqlite3
+  rake (~> 10.1)
+  rspec (~> 2.14)
+  sqlite3 (~> 1.3)
