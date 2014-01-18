@@ -40,3 +40,6 @@ user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravata
 user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravatar.png', size: 128, secure: true
 
 ```
+
+------------------
+Pull requests area welcome!
