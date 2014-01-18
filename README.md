@@ -42,4 +42,4 @@ user.email_gravatar default_avatar: 'http://my.domain.com/public/default_gravata
 ```
 
 ------------------
-Pull requests area welcome!
+Pull requests are welcome!
