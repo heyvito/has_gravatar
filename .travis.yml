@@ -1,3 +1,4 @@
 language: ruby
+bundler_args:
 rvm:
     - "2.2.3"
