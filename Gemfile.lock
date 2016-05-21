@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    has_gravatar (0.0.3)
+    has_gravatar (0.0.3a)
       activerecord (>= 5.0.0.rc1)
 
 GEM
