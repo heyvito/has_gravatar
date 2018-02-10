@@ -10,7 +10,7 @@ Add the following line to your `Gemfile`, depending on your Rails version:
 
 ### For Rails 5 and upward
 ```
-gem 'has_gravatar', '~> 0.0.3'
+gem 'has_gravatar', '~> 0.0.3b'
 ```
 
 ### For Rails 4.2.6 and backwards
